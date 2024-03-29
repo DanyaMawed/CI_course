@@ -26,6 +26,6 @@ jobs:
       - name: Test with pytest
         run: |
           make test
-      - name: Format Code
-        run: |
-          make format
+     # - name: Format Code
+      #  run: |
+       #   make format
