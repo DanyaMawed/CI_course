@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: setuo python 3.5
+      - name: setuo python 3.7.17 (x64)
         uses: actions/setup-python@v1
         with:
-          python-version: 3.5
+          python-version: 3.7.17
       - name: install dependencies
         run: |
           make install
